@@ -1,0 +1,4 @@
+Cache Management: Quản lý bộ nhớ đệm.
+Index Management: Quản lý các chỉ mục.
+Configuration: Cấu hình tất cả những gì trên website.
+Grid: Thanh Navbar quản lý các thành phần của website
