@@ -1,0 +1,12 @@
+Có 6 loại Products:
+- simple product: sản phẩm vật lý, duy nhất. Ví dụ như đôi giày, balo
+- configuable product: sản phẩm vật lý, duy nhất nhưng có nhiều tuỳ chọn. 
+	Ví dụ như đôi giày, vẫn đôi giày nhưng màu đỏ, xanh, tím, hoặc giày đỏ size 39, đỏ size 40.
+- Grouped product: Sản phẩm theo nhóm. 
+	Ví dụ như đôi giày thuộc nhóm sản phẩm thời trang, chiếc áo cũng thuộc sản phẩm thời trang, khi mua có thể mua theo nhóm hoặc riêng lẻ, tuỳ.
+- Virtual Product: Sản phẩm vô hình, key kích hoạt, tài khoản
+	Ví dụ như vourcher giảm giá, tài khoản game
+- Bundle product: có thể được xây dựng từ các sản phẩm độc lập tạo thành 1 bộ sản phẩm.
+	Ví dụ như Khách hàng mua 1 bộ PC tự build: Các sản phẩm độc lập như chuột, case, màn hình, bàn phím,.. đều là sản phẩm đơn lẻ dc xây dựng thành 1 chiếc PC
+- downloaded product: Sản phẩm ảo, là các sản phẩm có thể tải xuống
+	Ví dụ như 1 đường link, một bộ cài đặt phần mềm.

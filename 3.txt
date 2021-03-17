@@ -1,0 +1,31 @@
+Invoice: 
+	- Cho biết các thông tin của đơn hàng: mã đơn, ngày tạo.
+	- Thông tin về người nhận hàng: địa chỉ, họ tên.
+	- Thông tin người đặt hàng.
+	- Phương thức thanh toán, vận chuyển.
+	- Những sản phẩm thuộc Virtual Product, downloaded product sẽ ko phải vận chuyển.
+	- Mặt hàng được mua.
+	- Sau khi lập hoá đơn thì trạng thái (status) của Order sẽ trở thành Complete
+	- Hoá đơn được in để gửi cho khách hàng
+Creditmemo:
+	- Sau khi lập hoá đơn mới có thể tạo Credit Memos.
+	- Credit Memos lưu trữ thông tin của hoá đơn.
+	- Cho biết thông tin về số tiền được hoàn trả cho khách hàng.
+	- Số tiền hoàn trả có thể trả qua Tiền mặt hoặc Tài khoản ngân hàng.
+	- Sau khi tạo Credit Memos thì trạng thái (status) của Order sẽ trở thành Closed
+Shipments:
+	- Shipments cho biết thông tin vận chuyển của đơn hàng.
+	- Cho biết danh sách những đơn hàng nào- đang được vận chuyển, số lượng bao nhiêu, địa chỉ giao hàng, phương thức thanh toán.
+Status Order:
+	- Trạng thái đơn hàng: Đơn hàng đang được xử lý như thế nào.
+		+ Processing: Đang được xử lí, có thể tự động lập hoá đơn cho những đơn hàng này
+		+ Suspected Fraud: Gian lận
+		+ Pending Payment: Khách hàng chưa thanh toán
+		+ Pending: đơn hàng ko có hoá đơn và hàng đã được gửi
+		+ Complete: Đơn hàng đã hoàn thành
+		+ Closed:Đơn hàng đã được hoàn tiền.
+		+ Canceled: đơn hàng bị huỷ
+
+State Order:
+	- Tình trạng đơn hàng: Thể hiện của trạng thái xử lý đơn hàng.
+		+ Trạng thái chờ thanh toán: Thanh toán bằng gì? Thanh toán bằng PayPal, Card.

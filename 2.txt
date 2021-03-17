@@ -1,0 +1,1 @@
+Customer Group để phân nhóm khách hàng. Có 4 nhóm khách hàng mặc định:NOT LOGGED IN, General, Wholesale, Retailer. Việc phân nhóm khách hàng sẽ chỉ định được nhóm khách hàng này chịu thuế, chiết loại thế nào, mức thuế, chiết khấu là bao nhiêu.
