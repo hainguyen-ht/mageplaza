@@ -1,0 +1,28 @@
+{
+    "name": "magento/module-catalog",
+    "description": "N/A",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+    },
+    "suggest": {
+        "../../../../vendor/magento/module-cookie": "100.3.*",
+        "../../../../vendor/magento/module-sales": "102.0.*",
+        "../../../../vendor/magento/module-catalog-sample-data": "Sample Data version: 100.3.*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\Catalog\\": ""
+        }
+    },
+    "version": "103.0.6"
+}
