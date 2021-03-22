@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Mageplaza_DevelopmentGuide::developmentguide" title="Development Guide" module="Mageplaza_DevelopmentGuide" sortOrder="51" resource="Mageplaza_DevelopmentGuide::developmentguide"/>
+        <add id="Mageplaza_DevelopmentGuide::post" title="Manage Posts" module="Mageplaza_DevelopmentGuide" sortOrder="10" action="mageplaza_developmentguide/post/index" resource="Mageplaza_DevelopmentGuide::post" parent="Mageplaza_DevelopmentGuide::developmentguide"/>
+        <add id="Mageplaza_DevelopmentGuide::development_configuration" title="Configuration" module="Mageplaza_DevelopmentGuide" sortOrder="99" parent="Mageplaza_DevelopmentGuide::developmentguide" action="adminhtml/system_config/edit/section/development" resource="Mageplaza_DevelopmentGuide::development_configuration"/>
+    </menu>
+</config>
